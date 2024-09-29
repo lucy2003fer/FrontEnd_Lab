@@ -1,0 +1,44 @@
+.principal {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.principal h3 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.principal img {
+    width: 150px; /* Ajusta según el tamaño deseado */
+    height: auto;
+    position: absolute;
+    bottom: 10px; /* Coloca la imagen en la parte inferior */
+}
+
+.target1,
+.target2 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias líneas */
+    justify-content: center; /* Centra los elementos */
+    gap: 20px; /* Espaciado entre los elementos */
+    margin-bottom: 30px; /* Espacio entre las secciones */
+}
+
+.targe {
+    width: 230px;
+    border-radius: 20px;
+    background-color: rgb(188, 241, 241);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.targe:hover {
+    background-color: #007bff; /* Cambia a un azul más fuerte */
+    color: white;
+    transform: translateY(-2px); /* Efecto de elevación */
+}
